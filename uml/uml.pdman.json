@@ -206,6 +206,91 @@
             }
           ],
           "chnname": "网页产品表"
+        },
+        {
+          "title": "contact",
+          "fields": [
+            {
+              "name": "id",
+              "type": "BigInt",
+              "remark": "",
+              "chnname": "id"
+            },
+            {
+              "name": "name",
+              "type": "DefaultString",
+              "remark": "",
+              "chnname": "联系人"
+            },
+            {
+              "name": "tel",
+              "type": "DefaultString",
+              "remark": "",
+              "chnname": "手机号"
+            },
+            {
+              "name": "address",
+              "type": "DefaultString",
+              "remark": "",
+              "chnname": "地址"
+            },
+            {
+              "name": "create_time",
+              "type": "DateTime",
+              "remark": "",
+              "chnname": "创建时间"
+            },
+            {
+              "name": "update_time",
+              "type": "DateTime",
+              "remark": "",
+              "chnname": "更新时间"
+            }
+          ],
+          "indexs": [],
+          "headers": [
+            {
+              "fieldName": "chnname",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "name",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "type",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "dataType",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "remark",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "pk",
+              "relationNoShow": false
+            },
+            {
+              "fieldName": "notNull",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "autoIncrement",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "defaultValue",
+              "relationNoShow": true
+            },
+            {
+              "fieldName": "relationNoShow",
+              "relationNoShow": true
+            }
+          ],
+          "chnname": "联系人表"
         }
       ],
       "graphCanvas": {
@@ -225,6 +310,14 @@
             "x": 638.4836453543726,
             "y": 104.90929974635202,
             "id": "6b1bc99a"
+          },
+          {
+            "shape": "table",
+            "title": "contact",
+            "moduleName": false,
+            "x": 400,
+            "y": 370,
+            "id": "05576c98"
           }
         ],
         "edges": [
